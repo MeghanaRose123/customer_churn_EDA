@@ -36,7 +36,12 @@ tenure, monthly charges
 - Seaborn
 - Google Colab
 
-## How to Run
-1. Open customer_churn_EDA.ipynb in Google Colab
-2. Upload the dataset from Kaggle
-3. Run all cells in order
+## Model Results
+| Model | Accuracy | Recall |
+|-------|----------|--------|
+| Logistic Regression | 78.7% | 0.50 |
+| Random Forest | 77.8% | 0.47 |
+| Tuned Random Forest | 78.5% | 0.47 |
+
+Best Model: Logistic Regression
+Top 3 Features: Total Charges, Tenure, Monthly Charges
